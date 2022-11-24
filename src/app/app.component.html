@@ -1,0 +1,77 @@
+<!-- <hello name="{{ name }}"></hello>
+<h1>Angular</h1>
+<button type="button" (click)="onButtonClick()">Button</button>
+
+ [hidden]="true/false" -> schova     *ngIf="true/false" -> vymaze
+<app-test *ngIf="getIsClicked()"></app-test>
+<app-test></app-test>
+
+<br />
+
+<div
+  *ngFor="
+    let item of items;
+    index as i;
+    first as prvy;
+    last as posledny;
+    even as parny;
+    odd as neparny
+  "
+>
+  <div>index: {{ i }}</div>
+  <div *ngIf="prvy">first</div>
+  <div *ngIf="posledny">last</div>
+  <div *ngIf="parny">even</div>
+  <div *ngIf="neparny">odd</div>
+  <div>{{ item[0] }}</div>
+  <br />
+</div>
+
+<hr>
+
+<div *ngFor="let student of studenti; index as i">
+  <div>student {{ i + 1 }}</div>
+  <div>Meno: {{ student.meno }}</div>
+  <div>Prijem: {{ student.prijem }}</div>
+  <br />
+</div>
+
+<hr>
+
+<div
+  *ngFor="
+    let item of getArray();
+    index as i;
+    first as prvy;
+    last as posledny;
+    even as parny;
+    odd as neparny
+  "
+>
+  <div>index: {{ i }}</div>
+  <div *ngIf="prvy">first</div>
+  <div *ngIf="posledny">last</div>
+  <div *ngIf="parny">even</div>
+  <div *ngIf="neparny">odd</div>
+  <div>{{ item[0] }}</div>
+  <br />
+</div>
+
+<hr>
+
+<div [ngSwitch]="getExpression()">
+  <div *ngSwitchCase="'abc'">ABC</div>
+  <div *ngSwitchDefault>default</div>
+</div>
+
+<hr> -->
+
+<!-- <div>{{ name }}</div>
+<app-test [inputPremenna]="name" [inputZlozity]="dataZlozite" (dataVon)="onEvent($event)"></app-test> -->
+
+<button (click)="onClick()">ziskaj data a zmen</button>
+<div>Data z hello componentu: {{ data }}</div>
+<hello [name]="name" [cislo]="cislo"></hello>
+<hello #druhy name="druhy hello" [cislo]="cislo"></hello>
+
+<one></one>
